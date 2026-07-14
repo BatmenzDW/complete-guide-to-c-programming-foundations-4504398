@@ -2,15 +2,14 @@
 
 char *myname(void)
 {
-	char me[] = "Dan Gookin";
+	static char me[] = "Dan Gookin";
 
-	return(me);
+	return (me);
 }
 
 int main()
 {
-	printf("This course's author is %s\n", myname() );
+	printf("This course's author is %s\n", myname());
 
-	return(0);
+	return (0);
 }
-
