@@ -2,11 +2,11 @@
 
 int main()
 {
-	int a,b;
+	int a, b;
 
 	printf("Enter two values, separated by a space: ");
-	scanf("%d",&a);
-	scanf("%d",&b);
+	scanf("%d", &a);
+	scanf("%d", &b);
 
 	// add
 	// subtract
